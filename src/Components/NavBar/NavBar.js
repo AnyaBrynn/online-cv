@@ -4,39 +4,34 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
+import { Grid, ListItem, ListItemButton, ListItemText } from "@mui/material";
+import {IconButton, Button} from "@mui/material";
 
+const pages = ['Resume', 'Code', 'Art'];
 
 const NavBar = () => (
   <Box sx={{ flexGrow: 1 }}>
-  <AppBar>
-    <Toolbar>
-      <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-        <Link to="/" style={{ textDecoration: "none", color: "white" }}>
-          Home
-        </Link>
-      </Typography>
-
-      <Typography variant="h6">
-        <Link to="/Resume" style={{ textDecoration: "none", color: "white" }}>
-          Resume
-        </Link>
-      </Typography>
-
-      <Typography variant="h6">
-        <Link to="/Code" style={{ textDecoration: "none", color: "white" }}>
-          Code
-        </Link>
-      </Typography>
-
-      <Typography variant="h6">
-        <Link to="/Art" style={{ textDecoration: "none", color: "white" }}>
-          Art
-        </Link>
-      </Typography>
-    </Toolbar>
-  </AppBar>
-</Box>
-);
+      <AppBar position="static">
+        <Toolbar>
+          <IconButton
+            size="large"
+            edge="start"
+            color="inherit"
+            aria-label="menu"
+            sx={{ mr: 2 }}
+          >
+            Anya Stiefbold
+          </IconButton>
+          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          </Typography>
+          <Button color="inherit"><Link to ="/online-cv">Home</Link></Button>
+          <Button color="inherit"><Link to ="/work">Work</Link></Button>
+          <Button color="inherit"><Link to ="/about">About</Link></Button>
+          <Button color="inherit"><Link to ="/contact">Contact</Link></Button>
+        </Toolbar>
+      </AppBar>
+    </Box>
+  );
 
 NavBar.propTypes = {};
 
