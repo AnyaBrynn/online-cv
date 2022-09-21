@@ -4,10 +4,8 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import { Grid, ListItem, ListItemButton, ListItemText } from "@mui/material";
 import {IconButton, Button} from "@mui/material";
 
-const pages = ['Resume', 'Code', 'Art'];
 
 const NavBar = () => (
   <Box sx={{ flexGrow: 1 }}>

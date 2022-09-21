@@ -1,20 +1,66 @@
-import logo from './logo.svg';
 import './App.css';
-import { Link } from "react-router-dom";
 import { Routes, Route } from "react-router-dom";
 
 
-
-import Header from './Header';
-import NavBar from './Components/NavBar/NavBar';
 import Home from './Pages/Home/Home';
 import Resume from './Pages/Resume/Resume';
-import Art from './Pages/Art/Art';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 
+// theming imports
+import { createTheme } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material";
+
+// create theme
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#5396bc", //blue
+    },
+    secondary: {
+      main: "#ef476f", //pink
+    },
+  },
+  typography: {
+    fontFamily: ["Georgia"].join(","),
+    fontWeight: 300,
+    fontSize: 10,
+    lineHeight: 1.167,
+    letterSpacing: "-0.01562em",
+
+    h5: {
+      fontWeight: 300,
+      fontSize: "1.7rem",
+    },
+    h6: {
+      fontWeight: 300,
+      fontSize: "1.3rem",
+      textDecoration: "none",
+    },
+    body1: {
+      fontSize: "1.2rem",
+      textDecoration: "none",
+      a: {
+        color: "#000000",
+        textDecoration: "none",
+      },
+      "a": {
+        background: "#ec975a",
+        color: "#FFFFFF",
+      },
+    },
+    button: {
+      //for nav menu
+      fontSize: ".8rem",
+      fontWeight: 600,
+      color: "#5396bc",
+    },
+  },
+});
+
 function App() {
   return (
+    <ThemeProvider theme={theme}>
     <div className="App">
       <Routes>
         <Route path="/online-cv" element={<Home />}/>
@@ -24,6 +70,7 @@ function App() {
       </Routes>
       
     </div>
+    </ThemeProvider>
   );
 }
 
