@@ -15,7 +15,7 @@ const drawerWidth = 240;
 function WorkNav() {
     return (
         <>
-        <Box sx={{ display: 'flex' }}>
+        <Box sx={{ display: 'flex' }} >
         <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
             <NavBar/>
         </AppBar>
@@ -28,7 +28,7 @@ function WorkNav() {
         }}
         >
         <Toolbar />
-        <Box sx={{ overflow: 'auto' }}>
+        <Box sx={{ overflow: 'auto' }} >
             <List>
             {['Education', 'Employment', 'Projects', 'Skills'].map((text, index) => (
                 <ListItem key={text} disablePadding  >

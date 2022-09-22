@@ -12,7 +12,7 @@ function Contact() {
     <>
     <main>   
     {/* education */}
-    <Container id="Education" sx={{pt:10,  flexGrow: 1, width:"60%"}}>
+    <Container id="Education" sx={{pt:10,  flexGrow: 1, width:"60%"}} >
     <WorkNav/>
     <Typography variant="h3" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
             Education
