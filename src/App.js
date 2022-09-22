@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 
 import Home from './Pages/Home/Home';
-import Resume from './Pages/Resume/Resume';
+import Work from './Pages/Work/Work';
 import About from './Pages/About/About';
 import Contact from './Pages/Contact/Contact';
 
@@ -69,7 +69,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/online-cv" element={<Home />}/>
-        <Route path="/work" element={<Resume />} />
+        <Route path="/work" element={<Work />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
