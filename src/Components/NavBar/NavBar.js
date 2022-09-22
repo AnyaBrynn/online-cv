@@ -4,7 +4,7 @@ import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
-import {IconButton, Button} from "@mui/material";
+import { Button} from "@mui/material";
 
 
 const pages = ['cv', 'about', 'contact'];
@@ -13,16 +13,9 @@ const NavBar = () => (
   <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            sx={{ mr: 2 }}
-          >
             <Typography variant="h3">
               Anya Stiefbold
             </Typography>
-          </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
           <Button>

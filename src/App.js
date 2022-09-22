@@ -45,7 +45,7 @@ const theme = createTheme({
         textDecoration: "none",
       },
       "a:hover": {
-        background: "#ec975a",
+        color: "#5396bc",
       },
       
     },

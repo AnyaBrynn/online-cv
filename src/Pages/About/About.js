@@ -32,7 +32,7 @@ function About() {
           </Typography>
           <br/>
           <Typography>
-            In addition to being a 3rd year computing science student, I am a self-taught digital illustrator. With 6 years of experience. From graphic design to digital oil paintings I have a diverse artistic skillset. I effectively work with clients to create what they envision. In the summer of 2020 I completed a passion project which included planning, creating, and publishing 2d animations to 56k followers on TikTok. 
+            In addition to being a 3rd year computing science student, I am a self-taught digital illustrator. From graphic design to digital oil paintings I have a diverse artistic skillset. I effectively work with clients to create what they envision. In the summer of 2020 I completed a passion project which included planning, creating, and publishing 2d animations to 56k followers on TikTok. 
           </Typography>
           <br/>
           <Typography>
