@@ -6,6 +6,9 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import {IconButton, Button} from "@mui/material";
 
+
+const pages = ['work', 'about', 'contact'];
+
 const NavBar = () => (
   <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -16,16 +19,24 @@ const NavBar = () => (
             color="inherit"
             sx={{ mr: 2 }}
           >
-            <Typography>
+            <Typography variant="h3">
               Anya Stiefbold
             </Typography>
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
-          <Button><Link style={{ textDecoration: 'none', color: 'white' }} to ="/online-cv">Home</Link></Button>
-          <Button><Link style={{ textDecoration: 'none', color: 'white' }} to ="/work">Work</Link></Button>
-          <Button><Link style={{ textDecoration: 'none', color: 'white' }} to ="/about">About</Link></Button>
-          <Button><Link style={{ textDecoration: 'none', color: 'white' }} to ="/contact">Contact</Link></Button>
+          <Button>
+                  <Link style={{ textDecoration: 'none', color: 'white' }} to='/online-cv'>
+                  <Typography textAlign="center">home</Typography>
+                  </Link>
+          </Button>
+          {pages.map((page) => (
+                <Button key={page}>
+                  <Link style={{ textDecoration: 'none', color: 'white' }} to={`/${page}`}>
+                  <Typography textAlign="center">{page}</Typography>
+                  </Link>
+                </Button>
+          ))}
         </Toolbar>
       </AppBar>
     </Box>

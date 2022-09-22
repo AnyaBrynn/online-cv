@@ -19,7 +19,7 @@ function About() {
         <Box
           sx={{
             bgcolor: "background.paper",
-            pt: 15,
+            pt: 20,
             pb: 6,
           }}
         >
