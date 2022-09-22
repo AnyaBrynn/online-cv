@@ -114,10 +114,8 @@ function Contact() {
                 </Typography>
             </ListItem>
         </List>
-    </Box>
-
     {/* Server */}
-    <Box sx={{width:"100%", p:5}}>
+    <br/>
         <Typography variant="h4">
         The Pita Grill
         </Typography>
@@ -142,10 +140,8 @@ function Contact() {
                 </Typography>
             </ListItem>
         </List>
-    </Box>
-
     {/* Prop designer  */}
-    <Box sx={{width:"100%", p:5}}>
+    <br/>
         <Typography variant="h4">
         East Chapel Hill High School One Acts
         </Typography>
@@ -197,8 +193,7 @@ function Contact() {
                 </Typography>
             </ListItem>
         </List>
-    </Box>
-    <Box sx={{width:"100%", p: 5}}>
+        <br/>
         <Typography variant="h4">
         Semester 2 Final Project
         </Typography>
@@ -231,12 +226,15 @@ function Contact() {
             Skills
     </Typography>
     <Box sx={{width:"100%", p: 5}}>
-    <Typography variant="h4">
-       Coding Languages
+        <Typography variant="h4">
+            Coding Languages
         </Typography>
-        <Typography variant="body1" align='left' sx={{pt:2}}>Python, Java, Javascript, HTML, CSS, XPath</Typography>
-    </Box>
-    <Box sx={{width:"100%", p: 5}}>
+        <List align='left'>
+            <ListItem>
+                <Typography variant="body1" align='left' sx={{pt:2}}>Python, Java, Javascript, HTML, CSS, XPath</Typography>
+            </ListItem>
+        </List>
+    <br/>
     <Typography variant="h4">
        Software
         </Typography>
@@ -260,14 +258,16 @@ function Contact() {
                 </Typography>
             </ListItem>
         </List>
-    </Box>
-    <Box sx={{width:"100%", p: 5}}>
+    <br/>
         <Typography variant="h4">
         Languages 
         </Typography>
-        <Typography variant="body1" align='left' sx={{pt:2}}>English (native), Spanish (intermediate), German (beginner), Portuguese (survival)</Typography>
-    </Box>
-    <Box sx={{width:"100%", p: 5}}>
+        <List align='left'>
+            <ListItem>
+                <Typography variant="body1" align='left' sx={{pt:2}}>English (native), Spanish (intermediate), German (beginner), Portuguese (survival)</Typography>
+            </ListItem>
+        </List>
+    <br/>
     <Typography variant="h4">
        Current Courses 
         </Typography>
@@ -279,8 +279,7 @@ function Contact() {
                 </Typography>
             </ListItem>
         </List>
-    </Box>
-    <Box sx={{width:"100%", p: 5}}>
+    <br/>
     <Typography variant="h4">
        Past Courses 
         </Typography>

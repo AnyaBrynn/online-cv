@@ -44,7 +44,7 @@ function About() {
                     </Typography>
                     <Typography align='left' paragraph={true} variant="h5">
                       I'm Anya, a 3rd year computer science student
-                      pursuing coursework and research in Human-Computer Interaction, Programming Language Development, and Metadata Applications. 
+                      pursuing coursework and research in Human-Computer Interaction, Programming Language Development, and Web Application Development. 
                       I'm also a digital illustrator that enjoys graphic design and working across disciplines.
                     </Typography>
                 </CardContent>
