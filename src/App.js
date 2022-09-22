@@ -44,10 +44,7 @@ const theme = createTheme({
         color: "#000000",
         textDecoration: "none",
       },
-      "a": {
-        background: "#ec975a",
-        color: "#FFFFFF",
-      },
+      
     },
     button: {
       //for nav menu
@@ -56,6 +53,10 @@ const theme = createTheme({
       color: "#5396bc",
     },
   },
+  img: {
+    width: "100px",
+    height: "100px",
+},
 });
 
 function App() {
