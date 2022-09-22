@@ -5,6 +5,9 @@ import ListItem from '@mui/material/List'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import WorkNav from '../WorkNav/WorkNav'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import Pdf from '../../assets/Resume_Stiefbold.pdf'
+
 
 
 function Contact() {
@@ -14,10 +17,14 @@ function Contact() {
     {/* education */}
     <Container id="Education" sx={{pt:10,  flexGrow: 1, width:"60%"}} >
     <WorkNav/>
-    <Typography variant="h3" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
+    <Box sx={{width:"100%", p: 5}}>
+    <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
+        <a href = {Pdf} target = "_blank" rel="noopener noreferrer">View PDF Version Here</a> 
+    <OpenInNewIcon/>
+    </Typography>
+    <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
             Education
     </Typography>
-    <Box sx={{width:"100%", p: 5}}>
         <Typography variant="h4">
         University of Glasgow
         </Typography>
@@ -85,11 +92,11 @@ function Contact() {
     
     {/* Employment  */}
     <Container id="Employment" sx={{pt:10,  flexGrow: 1, width:"60%"}}>
-    <Typography variant="h3" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
-            Employment
-    </Typography>
     {/* HMU  */}    
     <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
+                Employment
+        </Typography>
         <Typography variant="h4">
         NSF REU at Harvey Mudd College
         </Typography>
@@ -166,10 +173,10 @@ function Contact() {
 
     {/* projects  */}
     <Container id="Projects" sx={{pt:10,  flexGrow: 1, width:"60%"}}>
-    <Typography variant="h3" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
-            Projects
-    </Typography>
     <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
+                Projects
+        </Typography>
         <Typography variant="h4">
         Network and Operating Systems
         </Typography>
@@ -222,10 +229,10 @@ function Contact() {
 
     {/* skills  */}
     <Container id="Skills" sx={{pt:10,  flexGrow: 1, width:"60%"}}>
-    <Typography variant="h3" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
-            Skills
-    </Typography>
     <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3" sx={{ p: 5, textDecoration: 'underline'}}>
+                Skills
+        </Typography>
         <Typography variant="h4">
             Coding Languages
         </Typography>
