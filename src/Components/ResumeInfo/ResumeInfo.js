@@ -13,8 +13,76 @@ function Contact() {
     <WorkNav/>
     <main>   
     {/* education */}
-
-
+    <Container sx={{pt:10,  flexGrow: 1}}>
+    <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3">
+        University of Glasgow
+        </Typography>
+        <Typography variant="h4">
+        Glasgow, Scotland | Expected Graduation 2024 <h4>Computer Science Bsc</h4>
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Recipient of Undergraduate Excellence Scholarship
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ GPA of 17.9 
+                </Typography>
+            </ListItem>
+        </List>
+    </Box>
+    <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3">
+        East Chapel Hill High School
+        </Typography>
+        <Typography variant="h4">
+        Chapel Hill, NC, USA | 2017-20
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ National Honours Society member 
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Completed six Advanced Placement (college/university credit) courses in 
+   the fields of: Computer Science, Calculus BC, Statistics, 
+   Earth Science, US History, English Literature, English Language
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ GPA: 4.0 
+                </Typography>
+            </ListItem>
+        </List>
+    </Box>
+    <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3">
+        Wyoming High School
+        </Typography>
+        <Typography variant="h4">
+        Wyoming, OH, USA | 2016-17
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Outstanding World Studies 1 Student
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Outstanding Spanish 1 Student
+                </Typography>
+            </ListItem>
+        </List>
+    </Box>
+    </Container>
+    
 
     {/* HMU  */}
     <Container sx={{pt:10,  flexGrow: 1}}>
@@ -43,10 +111,8 @@ function Contact() {
             </ListItem>
         </List>
     </Box>
-    </Container>
 
     {/* Server */}
-    <Container sx={{pt:10, }}>
     <Box sx={{width:"100%", p:5}}>
         <Typography variant="h3">
         The Pita Grill
@@ -72,10 +138,8 @@ function Contact() {
             </ListItem>
         </List>
     </Box>
-    </Container>
 
     {/* Prop designer  */}
-    <Container sx={{pt:10,}}>
     <Box sx={{width:"100%", p:5}}>
         <Typography variant="h3">
         East Chapel Hill High School One Acts
@@ -102,6 +166,62 @@ function Contact() {
         </List>
     </Box>
     </Container>
+
+    {/* projects  */}
+    <Container sx={{pt:10,  flexGrow: 1}}>
+    <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3">
+        Network and Operating Systems
+        </Typography>
+        <Typography variant="h4">
+        Fall 2021
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Built network application using Python socket library
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Developed and tested code to meet defined functional specification
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Developed efficient coding and debugging techniques
+                </Typography>
+            </ListItem>
+        </List>
+    </Box>
+    <Box sx={{width:"100%", p: 5}}>
+        <Typography variant="h3">
+        Semester 2 Final Project
+        </Typography>
+        <Typography variant="h4">
+        Spring 2021
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Designed and implemented an efficient data structure to aid data analysis
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Manipulated a database without Python helper libraries 
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Applied Matplotlib to design and program data visualisations for complex data sets
+                </Typography>
+            </ListItem>
+        </List>
+    </Box>
+    </Container>
+
+    {/* skills  */}
 
     </main>
     </>
