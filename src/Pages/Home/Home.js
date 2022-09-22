@@ -10,7 +10,6 @@ import Container from '@mui/material/Container';
 import CardContent from '@mui/material/CardContent';
 
 
-
 function About() {
   return (
     <>
@@ -28,15 +27,13 @@ function About() {
           <Container>
             <Grid
               container spacing={2}
-              // spacing={{ xs: 8, md: 3 }}
-              // columns={{ xs: 4}}
             >
               <Container
                 sx={{
                   height: "100%",
                   display: "flex",
                   flexDirection: "column",
-                  width: '60%',
+                  width: "60%",
                 }}
                 item xs={8}
               >
@@ -59,12 +56,12 @@ function About() {
                   width: '40%',
                 }}
               >
-                <CardContent>
+                <CardContent align='right'>
                     <Avatar
-              alt="profilePic"
-              src={profilePic}
-              sx={{ width: "75%", height: "75%",}}
-            />
+                      alt="profilePic"
+                      src={profilePic}
+                      sx={{ width: "90%", height: "90%",}}
+                    />
                 </CardContent>
               </Container>
             </Grid>
