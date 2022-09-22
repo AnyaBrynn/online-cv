@@ -7,6 +7,16 @@ import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card'
 import Container from '@mui/material/Container';
 
+// image imports
+import Bear from '../../assets/bear.jpg'
+import Grad from '../../assets/graduation.jpg'
+import Sweater from '../../assets/pinkSweater.jpg'
+import Travelers from '../../assets/twoTravelers.jpg'
+import TravelersPage from '../../assets/twoTravelersPage2.jpg'
+import Characters from '../../assets/characterSheet.jpg'
+import Torch from '../../assets/torchMan.jpg'
+import Portrait from '../../assets/portrait.jpg'
+
 
 
 import NavBar from '../../Components/NavBar/NavBar'
@@ -32,13 +42,28 @@ function About() {
         <CardContent>
         <Carousel cols={2} rows={1} gap={10} loop >
           <Carousel.Item>
-            <img width="100%" src="" />
+            <img width="100%" src={Travelers} alt="Two Travelers and a Bear cover art" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="" />
+            <img width="100%" src={TravelersPage} alt="Two men were traveling in company through wilderness" />
           </Carousel.Item>
           <Carousel.Item>
-            <img width="100%" src="" />
+            <img width="100%" src={Bear} alt="bear with lightning powers" />
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src={Portrait} alt="portrait of a blonde haired man" />
+          </Carousel.Item>
+          {/* <Carousel.Item>
+            <img width="100%" src={Grad} alt="congrats 2020 grads"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src={Sweater} alt="stylized drawing of a man wearing a pink sweater"/>
+          </Carousel.Item> */}
+          <Carousel.Item>
+            <img width="100%" src={Characters} alt="character design of a tall man, bubbly younger sister, and bookish older sister"/>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img width="100%" src={Torch} alt="adventurer lunging sideways with a torch"/>
           </Carousel.Item>
         </Carousel>
         </CardContent>
