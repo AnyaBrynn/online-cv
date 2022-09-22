@@ -19,13 +19,13 @@ const NavBar = () => (
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
           <Button>
-                  <Link style={{ textDecoration: 'none', color: 'white' }} to='/online-cv'>
+                  <Link style={{ textDecoration: 'none', color: 'black' }} to='/online-cv'>
                   <Typography textAlign="center">home</Typography>
                   </Link>
           </Button>
           {pages.map((page) => (
                 <Button key={page}>
-                  <Link style={{ textDecoration: 'none', color: 'white' }} to={`/${page}`}>
+                  <Link className="Link" style={{ textDecoration: 'none', color: 'black'}} to={`/${page}`}>
                   <Typography textAlign="center">{page}</Typography>
                   </Link>
                 </Button>

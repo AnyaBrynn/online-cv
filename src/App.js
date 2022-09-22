@@ -15,7 +15,7 @@ import { ThemeProvider } from "@mui/material";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#5396bc", //blue
+      main: "#ffe97f", //yellow
     },
     secondary: {
       main: "#ef476f", //pink
@@ -45,15 +45,11 @@ const theme = createTheme({
         textDecoration: "none",
       },
       "a:hover": {
-        color: "#5396bc",
+        color: "#a63c06",
       },
-      
-    },
-    button: {
-      //for nav menu
-      fontSize: ".8rem",
-      fontWeight: 600,
-      color: "#5396bc",
+      "a:visited": {
+        color: "#000000",
+      },
     },
   },
   img: {
