@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography";
 import {IconButton, Button} from "@mui/material";
 
 
-const pages = ['work', 'about', 'contact'];
+const pages = ['cv', 'about', 'contact'];
 
 const NavBar = () => (
   <Box sx={{ flexGrow: 1 }}>
