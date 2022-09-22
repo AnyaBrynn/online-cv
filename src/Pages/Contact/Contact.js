@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent } from '@mui/material'
+import { Card, CardContent, AppBar } from '@mui/material'
 import Typography from '@mui/material/Typography'
 import Container from '@mui/material/Container'
 
@@ -12,7 +12,9 @@ function Contact() {
 
   return (
     <div>
-      <NavBar />
+      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+            <NavBar/>
+      </AppBar>
       <Container sx={{width:"50%", pt:15}}>
         <CardContent align='left' sx={{width:"30%"}}>
         <Typography>

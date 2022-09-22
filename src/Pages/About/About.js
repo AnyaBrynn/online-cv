@@ -6,6 +6,7 @@ import Typography from '@mui/material/Typography'
 import CardContent from '@mui/material/CardContent';
 import Card from '@mui/material/Card'
 import Container from '@mui/material/Container';
+import { AppBar } from '@mui/material'
 
 // image imports
 import Bear from '../../assets/bear.jpg'
@@ -24,8 +25,11 @@ import NavBar from '../../Components/NavBar/NavBar'
 function About() {
   return (
     <div>
-      <NavBar />
-      <Container  sx={{width:"80%", pr:15}}>
+      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+            <NavBar/>
+        </AppBar>
+      <div/>
+      <Container  sx={{width:"80%", pr:15, pt:8}}>
         <CardContent sx={{width:"100%", p:5}} align='left'>
           <Typography>
             Although relatively new to computer science when starting university, over my education I have become passionate about the field. I enjoy the problem solving aspect of computing and am particularly interested in the human factor within technology. 

@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material'
+import { Typography, AppBar } from '@mui/material'
 import React from 'react'
 
 import NavBar from '../../Components/NavBar/NavBar'
@@ -14,7 +14,9 @@ import CardContent from '@mui/material/CardContent';
 function About() {
   return (
     <>
-      <NavBar />
+      <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
+            <NavBar/>
+        </AppBar>
       <main>
         <Box
           sx={{
