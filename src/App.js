@@ -44,6 +44,10 @@ const theme = createTheme({
         color: "#000000",
         textDecoration: "none",
       },
+      "a:hover": {
+        background: "#ec975a",
+        color: "#FFFFFF",
+      },
       
     },
     button: {
