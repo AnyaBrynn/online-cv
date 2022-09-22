@@ -46,7 +46,6 @@ const theme = createTheme({
       },
       "a:hover": {
         background: "#ec975a",
-        color: "#FFFFFF",
       },
       
     },

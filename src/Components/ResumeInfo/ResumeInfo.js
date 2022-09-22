@@ -13,7 +13,7 @@ function Contact() {
     <WorkNav/>
     <main>   
     {/* education */}
-    <Container sx={{pt:10,  flexGrow: 1}}>
+    <Container id="Education" sx={{pt:10,  flexGrow: 1}}>
     <Typography variant="h2" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
             Education
     </Typography>
@@ -84,7 +84,7 @@ function Contact() {
     </Container>
     
     {/* Employment  */}
-    <Container sx={{pt:10,  flexGrow: 1}}>
+    <Container id="Employment" sx={{pt:10,  flexGrow: 1}}>
     <Typography variant="h2" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
             Employment
     </Typography>
@@ -174,7 +174,7 @@ function Contact() {
     </Container>
 
     {/* projects  */}
-    <Container sx={{pt:10,  flexGrow: 1, }}>
+    <Container id="Projects" sx={{pt:10,  flexGrow: 1, }}>
     <Typography variant="h2" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
             Projects
     </Typography>
@@ -231,7 +231,7 @@ function Contact() {
     </Container>
 
     {/* skills  */}
-    <Container sx={{pt:10,  flexGrow: 1, }}>
+    <Container id="Skills" sx={{pt:10,  flexGrow: 1, }}>
     <Typography variant="h2" sx={{width:"100%", p: 5, textDecoration: 'underline'}}>
             Skills
     </Typography>

@@ -7,9 +7,10 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import NavBar from '../NavBar/NavBar';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
+import Typography from '@mui/material/Typography';
 
 const drawerWidth = 240;
 
@@ -34,7 +35,9 @@ function WorkNav() {
             {['Education', 'Employment', 'Projects', 'Skills'].map((text, index) => (
                 <ListItem key={text} disablePadding>
                 <ListItemButton>
-                    <ListItemText primary={text} />
+                    <Typography>
+                    <AnchorLink href={`#${text}`}><ListItemText primary={text}/></AnchorLink>
+                    </Typography>
                 </ListItemButton>
                 </ListItem>
             ))}
