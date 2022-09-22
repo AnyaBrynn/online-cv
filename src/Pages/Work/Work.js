@@ -6,7 +6,6 @@ import ResumeInfo from '../../Components/ResumeInfo/ResumeInfo'
 function Resume() {
   return (
     <div>
-      <NavBar />
       <ResumeInfo />
     </div>
   )

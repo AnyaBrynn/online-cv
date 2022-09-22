@@ -4,10 +4,13 @@ import List from '@mui/material/List'
 import ListItem from '@mui/material/List'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
+import WorkNav from '../WorkNav/WorkNav'
 
 
 function Contact() {
   return (
+    <>
+    <WorkNav/>
     <main>
     {/* option to view full resume  */}
     
@@ -99,6 +102,7 @@ function Contact() {
     </Container>
 
     </main>
+    </>
   )
 }
 
