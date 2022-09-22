@@ -40,7 +40,7 @@ function About() {
               >
                 <CardContent>
                     <Typography  variant="h2" component="div" align='left' >
-                      Hello/Hola/Hallo,
+                      Howdy,
                     </Typography>
                     <Typography align='left' paragraph={true} variant="h5">
                       I'm Anya, a 3rd year computer science student
