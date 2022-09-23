@@ -38,10 +38,10 @@ function About() {
                 item xs={8}
               >
                 <CardContent>
-                    <Typography  variant="h2" component="div" align='left' >
+                    <Typography  variant="h3" component="div" align='left' >
                       Howdy,
                     </Typography>
-                    <Typography align='left' paragraph={true} variant="h5">
+                    <Typography align='left' paragraph={true} variant="h6">
                       I'm Anya, a 3rd year computer science student
                       pursuing coursework and research in Human-Computer Interaction, Programming Language Development, and Web Application Development. 
                       I'm also a digital illustrator that enjoys graphic design and working across disciplines.
