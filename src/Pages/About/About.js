@@ -57,12 +57,6 @@ function About() {
           <Carousel.Item>
             <img width="100%" src={Portrait} alt="portrait of a blonde haired man" />
           </Carousel.Item>
-          {/* <Carousel.Item>
-            <img width="100%" src={Grad} alt="congrats 2020 grads"/>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img width="100%" src={Sweater} alt="stylized drawing of a man wearing a pink sweater"/>
-          </Carousel.Item> */}
           <Carousel.Item>
             <img width="100%" src={Characters} alt="character design of a tall man, bubbly younger sister, and bookish older sister"/>
           </Carousel.Item>

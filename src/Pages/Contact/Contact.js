@@ -8,6 +8,7 @@ import MailTo from '../../Components/MailTo/MailTo'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Grid from '@mui/material/Grid'
 import Box from '@mui/material/Box'
+// import { useTheme } from "@mui/material/styles/useTheme"
 
 // image imports 
 import EmailIcon from '@mui/icons-material/Email'
@@ -18,7 +19,7 @@ import LinkedInLogo from '../../assets/LinkedInLogo.png'
 
 function Contact() {
 
-  return (
+  return (    
     <div>
       <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
             <NavBar/>
@@ -36,7 +37,7 @@ function Contact() {
           </Typography>
         </Container>
         <br/>
-        <Container sx={{pt:5,}}>
+        <Container sx={{pt:5, }}>
           <Grid
             container spacing={2}
           >
