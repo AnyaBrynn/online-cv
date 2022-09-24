@@ -18,6 +18,8 @@ import Characters from '../../assets/characterSheet.jpg'
 import Torch from '../../assets/torchMan.jpg'
 import Portrait from '../../assets/portrait.jpg'
 
+import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+
 
 
 import NavBar from '../../Components/NavBar/NavBar'
@@ -32,19 +34,18 @@ function About() {
       <Container  sx={{width:"80%", pr:15, pt:8}}>
         <CardContent sx={{width:"100%", p:5}} align='left'>
           <Typography>
-            Although relatively new to computer science when starting university, over my education I have become passionate about the field. I enjoy the problem solving aspect of computing and am particularly interested in the human factor within technology. 
+            In addition to being a 3rd year computing science student, I am a self-taught digital illustrator. From graphic design to digital oil paintings I have a diverse artistic skillset. I effectively work with clients to create what they envision. In the summer of 2020 I completed a passion project which included planning, creating, and publishing 2d animations to 56k followers on TikTok.
           </Typography>
           <br/>
           <Typography>
-            In addition to being a 3rd year computing science student, I am a self-taught digital illustrator. From graphic design to digital oil paintings I have a diverse artistic skillset. I effectively work with clients to create what they envision. In the summer of 2020 I completed a passion project which included planning, creating, and publishing 2d animations to 56k followers on TikTok. 
-          </Typography>
-          <br/>
-          <Typography>
-            Growing up balancing sports and school, it was no surprise when I joined a sport that fulfilled my inner nerd, history geek, and athlete. I’m an active participant in Historical European Martial Arts. My two favourite disciplines within it are the Bolognese Sidesword and the German Longsword. I joined my university’s club and liked the community so much I’ve become its volunteer treasurer. 
+            I’m an active participant in Historical European Martial Arts. My two favourite disciplines within it are the Bolognese Sidesword and the German Longsword. I joined my university’s club and liked the community so much I’ve become its volunteer treasurer.
           </Typography>
         </CardContent>
-        <CardContent>
-        <Carousel cols={2} rows={1} gap={10} loop >
+        <CardContent sx={{width:"100%", px:5, pb: 5}} align='left'>
+        <Typography align='center'>
+            Check out some of my work! <ArrowDownwardIcon/>
+        </Typography>
+        <Carousel cols={2} rows={1} gap={10} loop>
           <Carousel.Item>
             <img width="100%" src={Travelers} alt="Two Travelers and a Bear cover art" />
           </Carousel.Item>
