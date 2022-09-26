@@ -13,7 +13,6 @@ import MailTo from '../../Components/MailTo/MailTo'
 
 function Contact() {
   return (
-    <>
     <main>   
     {/* education */}
     <Container id="Education" sx={{pt:10,  flexGrow: 1, width:"60%"}} >
@@ -22,7 +21,7 @@ function Contact() {
     <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
         <MailTo label="Request Full CV" mailto="mailto:anya.stiefbold@gmail.com"/><OpenInNewIcon/> 
     </Typography>
-    <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
+    <Typography component={'span'} variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
             Education
     </Typography>
         <Typography variant="h4">
@@ -254,23 +253,23 @@ function Contact() {
     <br/>
     <Typography variant="h4">
        Software
-        </Typography>
+    </Typography>
         <List align='left'>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Frameworks</Typography>: 
+                <Typography component ={'span'} sx={{textDecoration: 'underline'}} display="inline">Frameworks</Typography>: 
                 React.js, Material-UI, Grommet, Django
                 </Typography>
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Tools</Typography>:
+                <Typography component ={'span'} sx={{textDecoration: 'underline'}} display="inline">Tools</Typography>:
                 Google Slides, Microsoft Word, Microsoft Excel, Microsoft PowerPoint,
                 </Typography>
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Art and Design</Typography>: 
+                <Typography component ={'span'} sx={{textDecoration: 'underline'}} display="inline">Art and Design</Typography>: 
                 Krita, Procreate, Adobe Illustrator, Adobe Premiere Pro 
                 </Typography>
             </ListItem>
@@ -291,7 +290,7 @@ function Contact() {
         <List align='left'>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Third Year</Typography>: 
+                <Typography component ={'span'} sx={{textDecoration: 'underline'}} display="inline">Third Year</Typography>: 
                 Algorithmics 1 (H), Interactive Systems (H), Prof Software Development (H), Data Fundamentals (H), Systems Programming (H), 3rd Year Team Project (H)
                 </Typography>
             </ListItem>
@@ -303,13 +302,13 @@ function Contact() {
         <List align='left'>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">First Year</Typography>: 
+                <Typography component ={'span'} sx={{textDecoration: 'underline'}} display="inline">First Year</Typography>: 
                 Introduction to Computational Thinking, Computing Systems, Mathematics, Digital Media and Information Studies
                 </Typography>
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Second Year</Typography>:
+                <Typography component ={'span'} sx={{textDecoration: 'underline'}} display="inline">Second Year</Typography>:
                 Java Programming, Algorithm Foundations, Networks and Operating Systems, Algorithms and Data Structures, 
                 Object Oriented Software Engineering, Web App Development, Economics, Economic and Social History, Portuguese 
                 </Typography>
@@ -318,7 +317,6 @@ function Contact() {
     </Box>
     </Container>
     </main>
-    </>
   )
 }
 

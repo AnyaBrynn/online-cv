@@ -32,7 +32,7 @@ function WorkNav() {
             <List>
             {['Education', 'Employment', 'Projects', 'Skills'].map((text, index) => (
                 <ListItem key={text} disablePadding  >
-                    <Typography>
+                    <Typography component={'span'}>
                     <AnchorLink id='cv_nav' href={`#${text}`}><ListItemText primary={` ∙  ${text}`}/></AnchorLink>
                     </Typography>
                 </ListItem>

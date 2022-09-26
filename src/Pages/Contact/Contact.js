@@ -8,7 +8,6 @@ import MailTo from '../../Components/MailTo/MailTo'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import Grid from '@mui/material/Grid'
 import Box from '@mui/material/Box'
-// import { useTheme } from "@mui/material/styles/useTheme"
 
 // image imports 
 import EmailIcon from '@mui/icons-material/Email'
@@ -48,7 +47,6 @@ function Contact() {
                 flexDirection: "column",
                 width: "30%",
               }}
-              item xs={8}
             >
               <CardContent>
                 <Typography  variant="h4" component="div" align='center' >

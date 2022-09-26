@@ -13,20 +13,20 @@ const NavBar = () => (
   <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-            <Typography variant="h3">
+            <Typography component={'span'} variant="h3">
               Anya Stiefbold
             </Typography>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+          <Typography component={'span'} variant="h6" component="div" sx={{ flexGrow: 1 }}>
           </Typography>
           <Button>
                   <Link style={{ textDecoration: 'none', color: 'black' }} to='/online-cv'>
-                  <Typography textAlign="center">home</Typography>
+                  <Typography component={'span'} textAlign="center">home</Typography>
                   </Link>
           </Button>
           {pages.map((page) => (
                 <Button key={page}>
                   <Link className="Link" style={{ textDecoration: 'none', color: 'black'}} to={`/${page}`}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography component={'span'} textAlign="center">{page}</Typography>
                   </Link>
                 </Button>
           ))}
