@@ -5,8 +5,9 @@ import ListItem from '@mui/material/List'
 import Container from '@mui/material/Container'
 import Box from '@mui/material/Box'
 import WorkNav from '../WorkNav/WorkNav'
-import OpenInNewIcon from '@mui/icons-material/OpenInNew';
-import Pdf from '../../assets/Resume_Stiefbold.pdf'
+import OpenInNewIcon from '@mui/icons-material/OpenInNew'
+import MailTo from '../../Components/MailTo/MailTo'
+
 
 
 
@@ -19,8 +20,7 @@ function Contact() {
     <WorkNav/>
     <Box sx={{width:"100%", p: 5}}>
     <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
-        <a href = {Pdf} target = "_blank" rel="noopener noreferrer">View PDF Version Here</a> 
-    <OpenInNewIcon/>
+        <MailTo label="Request Full CV" mailto="mailto:anya.stiefbold@gmail.com"/><OpenInNewIcon/> 
     </Typography>
     <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
             Education
@@ -31,65 +31,21 @@ function Contact() {
         <Typography variant="h6">
         Glasgow, Scotland | Expected Graduation 2024 
         </Typography>
-        <Typography variant='h6' sx={{fontStyle: 'italic'}} display="inline">Computer Science Bsc</Typography>
         <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ BSc Computer Science 
+                </Typography>
+            </ListItem>
             <ListItem>
                 <Typography variant='body1'>
                 ∙ Recipient of Undergraduate Excellence Scholarship
                 </Typography>
             </ListItem>
-            <ListItem>
-                <Typography variant='body1'>
-                ∙ GPA of 17.9 
-                </Typography>
-            </ListItem>
-        </List>
-        <Typography variant="h4">
-        East Chapel Hill High School
-        </Typography>
-        <Typography variant="h6">
-        Chapel Hill, NC, USA | 2017-20
-        </Typography>
-        <List align='left'>
-            <ListItem>
-                <Typography variant='body1'>
-                ∙ National Honours Society member 
-                </Typography>
-            </ListItem>
-            <ListItem>
-                <Typography variant='body1'>
-                ∙ Completed six Advanced Placement (college/university credit) courses in 
-   the fields of: Computer Science, Calculus BC, Statistics, 
-   Earth Science, US History, English Literature, English Language
-                </Typography>
-            </ListItem>
-            <ListItem>
-                <Typography variant='body1'>
-                ∙ GPA: 4.0 
-                </Typography>
-            </ListItem>
-        </List>
-        <Typography variant="h4">
-        Wyoming High School
-        </Typography>
-        <Typography variant="h6">
-        Wyoming, OH, USA | 2016-17
-        </Typography>
-        <List align='left'>
-            <ListItem>
-                <Typography variant='body1'>
-                ∙ Outstanding World Studies 1 Student
-                </Typography>
-            </ListItem>
-            <ListItem>
-                <Typography variant='body1'>
-                ∙ Outstanding Spanish 1 Student
-                </Typography>
-            </ListItem>
         </List>
     </Box>
     </Container>
-    
+
     {/* Employment  */}
     <Container id="Employment" sx={{pt:10,  flexGrow: 1, width:"60%"}}>
     {/* HMU  */}    
@@ -104,10 +60,16 @@ function Contact() {
         Claremont, CA, USA | May 2022 - Aug 2022
         </Typography>
         <Typography variant='h6' sx={{fontStyle: 'italic'}} display="inline">Intern Researcher</Typography>
+        <Typography>Video Demonstration of Application: //TODO link to video</Typography>
         <List align='left'>
             <ListItem>
                 <Typography variant='body1'>
                 ∙ Designed and built a web application to enable user navigation and annotation of Shakespeare’s works
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Led the design development of the application’s UI
                 </Typography>
             </ListItem>
             <ListItem>
@@ -138,12 +100,17 @@ function Contact() {
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
+                ∙ Delivered excellent service, built rapport with regulars, and interacted with a diverse customer base
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
                 ∙ Effectively managed time to work and achieve honours status in school
                 </Typography>
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
-                ∙ Used earnings to purchase equipment for digital illustration and college savings
+                ∙ Gained the trust of the managers and was trusted to work the lunch rush solo 
                 </Typography>
             </ListItem>
         </List>
@@ -177,6 +144,49 @@ function Contact() {
         <Typography variant="h3" sx={{p: 5, textDecoration: 'underline'}}>
                 Projects
         </Typography>
+        <Typography variant="h4">
+        Personal Website 
+        </Typography>
+        <Typography variant="h6">
+        <a href="https://github.com/AnyaBrynn/online-cv" target="_blank" rel="noopener noreferrer">GitHub Repository</a><OpenInNewIcon/> | Fall 2022
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Developed a personal website using React.js and Material UI
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Designed the website layout to present easily navigable and clear information
+                </Typography>
+            </ListItem>
+        </List>
+        <br/>
+        <Typography variant="h4">
+        Memory Match Game  
+        </Typography>
+        <Typography variant="h6">
+        <a href="https://github.com/AnyaBrynn/Memory-Match" target="_blank" rel="noopener noreferrer">GitHub Repository</a><OpenInNewIcon/> | Summer 2022
+        </Typography>
+        <List align='left'>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Designed and implemented an interactive memory match game using React.js
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ UI developed with HTML/CSS to create engaging visuals for the game 
+                </Typography>
+            </ListItem>
+            <ListItem>
+                <Typography variant='body1'>
+                ∙ Implemented in-game tracker to determine number of turns a user takes 
+                </Typography>
+            </ListItem>
+        </List>
+        <br/>
         <Typography variant="h4">
         Network and Operating Systems
         </Typography>
@@ -238,7 +248,7 @@ function Contact() {
         </Typography>
         <List align='left'>
             <ListItem>
-                <Typography variant="body1" align='left' sx={{pt:2}}>Python, Java, Javascript, HTML, CSS, XPath</Typography>
+                <Typography variant="body1" align='left' sx={{pt:2}}>JavaScript, Python, Java, HTML/CSS, XPath, XML, Git, Bash </Typography>
             </ListItem>
         </List>
     <br/>
@@ -248,13 +258,13 @@ function Contact() {
         <List align='left'>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Web Development</Typography>: 
-                React.js, Django, Material-UI, Grommet
+                <Typography sx={{textDecoration: 'underline'}} display="inline">Frameworks</Typography>: 
+                React.js, Material-UI, Grommet, Django
                 </Typography>
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
-                <Typography sx={{textDecoration: 'underline'}} display="inline">Productivity</Typography>:
+                <Typography sx={{textDecoration: 'underline'}} display="inline">Tools</Typography>:
                 Google Slides, Microsoft Word, Microsoft Excel, Microsoft PowerPoint,
                 </Typography>
             </ListItem>
