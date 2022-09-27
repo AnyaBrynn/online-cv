@@ -56,7 +56,10 @@ function Contact() {
         NSF REU at Harvey Mudd College
         </Typography>
         <Typography variant="h6">
-        <a href="https://youtu.be/ceCjGRKKhsk" target="_blank" rel="noopener noreferrer">Video Demo of Web App</a><OpenInNewIcon/> | Claremont, CA, USA | May 2022 - Aug 2022
+        Claremont, CA, USA | May 2022 - Aug 2022
+        </Typography>
+        <Typography variant="h6">
+        Video Demos: <a href="https://youtu.be/IFCXHOIWL7g" target="_blank" rel="noopener noreferrer">"Magic" Highlighting Feature"</a><OpenInNewIcon/><a href="https://youtu.be/ceCjGRKKhsk" target="_blank" rel="noopener noreferrer">Web Application Walkthrough</a><OpenInNewIcon/> 
         </Typography>
         <Typography variant='h6' sx={{fontStyle: 'italic'}} display="inline">Intern Researcher</Typography>
         <List align='left'>
@@ -77,7 +80,7 @@ function Contact() {
             </ListItem>
             <ListItem>
                 <Typography variant='body1'>
-                ∙ Research and project presented at Harvey Mudd and the REU SoCal Symposium
+                ∙ Presented research and project at Harvey Mudd and the REU SoCal Symposium
                 </Typography>
             </ListItem>
         </List>
