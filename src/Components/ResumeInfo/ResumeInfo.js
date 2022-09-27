@@ -56,10 +56,9 @@ function Contact() {
         NSF REU at Harvey Mudd College
         </Typography>
         <Typography variant="h6">
-        Claremont, CA, USA | May 2022 - Aug 2022
+        <a href="https://youtu.be/ceCjGRKKhsk" target="_blank" rel="noopener noreferrer">Video Demo of Web App</a><OpenInNewIcon/> | Claremont, CA, USA | May 2022 - Aug 2022
         </Typography>
         <Typography variant='h6' sx={{fontStyle: 'italic'}} display="inline">Intern Researcher</Typography>
-        <Typography>Video Demonstration of Application: //TODO link to video</Typography>
         <List align='left'>
             <ListItem>
                 <Typography variant='body1'>
