@@ -38,7 +38,7 @@ function About() {
               >
                 <CardContent>
                     <Typography  variant="h3" component="div" align='left' >
-                      Howdy,
+                      Hello,
                     </Typography>
                     <Typography align='left' variant="h6">
                       I'm Anya, a 3rd year computer science student
