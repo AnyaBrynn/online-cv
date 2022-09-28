@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/online-cv/static/css/main.073c9b0a.css",
-    "main.js": "/online-cv/static/js/main.46414526.js",
+    "main.js": "/online-cv/static/js/main.3649b9a9.js",
     "static/js/787.733be76b.chunk.js": "/online-cv/static/js/787.733be76b.chunk.js",
-    "static/media/twoTravelers.jpg": "/online-cv/static/media/twoTravelers.bfab148aea7e8e10e949.jpg",
-    "static/media/twoTravelersPage2.jpg": "/online-cv/static/media/twoTravelersPage2.d40b58694a263477f272.jpg",
     "static/media/graduation.jpg": "/online-cv/static/media/graduation.f37933a8e938ebbb8004.jpg",
-    "static/media/portrait.jpg": "/online-cv/static/media/portrait.102fdb713cf5d99aadd5.jpg",
-    "static/media/characterSheet.jpg": "/online-cv/static/media/characterSheet.f34506d0a504b8983bfb.jpg",
+    "static/media/twoTravelers.jpg": "/online-cv/static/media/twoTravelers.d6c3d66f74aef52600c9.jpg",
+    "static/media/twoTravelersPage2.jpg": "/online-cv/static/media/twoTravelersPage2.f0218cc423ba7edb8148.jpg",
     "static/media/profilePic.jpg": "/online-cv/static/media/profilePic.81cde5da08eb90a623f3.jpg",
-    "static/media/bear.jpg": "/online-cv/static/media/bear.8e0cf707693717027e1b.jpg",
-    "static/media/torchMan.jpg": "/online-cv/static/media/torchMan.1ec662ea00dc04d53643.jpg",
     "static/media/pinkSweater.jpg": "/online-cv/static/media/pinkSweater.ff4114c1376de7d87549.jpg",
+    "static/media/characterSheet.jpg": "/online-cv/static/media/characterSheet.3112713508855408d18f.jpg",
+    "static/media/torchMan.jpg": "/online-cv/static/media/torchMan.8dfe955a6eda0b4b7280.jpg",
+    "static/media/bear.jpg": "/online-cv/static/media/bear.69e48e478fe201eabb31.jpg",
+    "static/media/portrait.jpg": "/online-cv/static/media/portrait.69c82202f41f0dd1b9a0.jpg",
     "index.html": "/online-cv/index.html",
     "main.073c9b0a.css.map": "/online-cv/static/css/main.073c9b0a.css.map",
-    "main.46414526.js.map": "/online-cv/static/js/main.46414526.js.map",
+    "main.3649b9a9.js.map": "/online-cv/static/js/main.3649b9a9.js.map",
     "787.733be76b.chunk.js.map": "/online-cv/static/js/787.733be76b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.46414526.js"
+    "static/js/main.3649b9a9.js"
   ]
 }
