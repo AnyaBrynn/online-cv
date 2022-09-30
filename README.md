@@ -1,7 +1,3 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## To View Website Visit: 
 https://AnyaBrynn.github.io/online-cv
 
@@ -14,4 +10,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+
+## About 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
